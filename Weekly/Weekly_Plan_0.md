@@ -84,8 +84,7 @@ func baseNeg2(N int) string {
 ## 参考阅读
 1. 这篇文章可以大概作为我们的学习路径：[怎样从零开始学习安卓软件开发？ - 知乎](https://www.zhihu.com/question/19741608)
 2. 我想，如果可以的话，我们之后用 Git 来管理项目。所以，大家先对 Git 有个大概的认识（如果没兴趣的话暂时不用深入学习）：[漫话：如何给女朋友解释什么是Git和GitHub？](https://mp.weixin.qq.com/s?__biz=Mzg3MjA4MTExMw==&mid=2247485189&idx=1&sn=fbe5c12bb3ebbb61741c6f91082d3557&chksm=cef5f4b3f9827da5423175abe0e114696605d0fe832ddcb9b3fc3e5e84b85b23f4115ac331c1&scene=90&xtrack=1&sessionid=1554110118&subscene=93&clicktime=1554110601&ascene=56&devicetype=iOS12.1.4&version=1700032a&nettype=WIFI&abtest_cookie=BAABAAoACwASABMABQAjlx4AVpkeAMqZHgDZmR4A3JkeAAAA&lang=zh_CN&fontScale=100&pass_ticket=ZgSgi5nXU2danIg1smld4bT6wUi1AWJYYdU%2FVrAsGwMvWg7MW%2BjMmyXb4YDnwb9R&wx_header=1)
-3. 2. 推荐大家学习 「命令行快速入门」，我每天使用计算机的很大一部分时间是在使用命令行，熟练使用命令行可以让操作电脑更容易，所以，如果大家有兴趣，可以看一下这篇文章：https://www.icloud.com/iclouddrive/0Ua-yx94hys7ssiPR85T0JehA
-
+3. 2. 推荐大家学习 「命令行快速入门」，我每天使用计算机的很大一部分时间是在使用命令行，熟练使用命令行可以让操作电脑更容易，所以，如果大家有兴趣，可以看一下这篇文章：[命令行快速入门](https://github.com/cdfmlr/LearnAndroidDevelopment/blob/master/Materials/《命令行快速入门》.pdf)
 
 ## 补充说明
 1. 在 “【参考】” 中我给出的是各项技术的「菜鸟教程」页，这个网站上对知识的总结挺好的，可以当作学习纲要来参考（我们要学的包括但不限于其中内容）
