@@ -17,12 +17,19 @@
 > 这个我之前忘了说了，但我计划以后都使用 GitHub 来完成大创项目，所以学一下GitHub。  
 
 什么是 GitHub?
+
 [漫话：如何解释什么是Git和GitHub？](https://mp.weixin.qq.com/s?__biz=Mzg3MjA4MTExMw==&mid=2247485189&idx=1&sn=fbe5c12bb3ebbb61741c6f91082d3557&chksm=cef5f4b3f9827da5423175abe0e114696605d0fe832ddcb9b3fc3e5e84b85b23f4115ac331c1&scene=90&xtrack=1&sessionid=1554110118&subscene=93&clicktime=1554110601&ascene=56&devicetype=iOS12.1.4&version=1700032a&nettype=WIFI&abtest_cookie=BAABAAoACwASABMABQAjlx4AVpkeAMqZHgDZmR4A3JkeAAAA&lang=zh_CN&fontScale=100&pass_ticket=ZgSgi5nXU2danIg1smld4bT6wUi1AWJYYdU%2FVrAsGwMvWg7MW%2BjMmyXb4YDnwb9R&wx_header=1)
+
 怎么用GitHub？
+
 [Github 简明教程 | 菜鸟教程](http://www.runoob.com/w3cnote/git-guide.html)
+
 想学习更多关于GitHub？（这个可以看自己的情况选学）
+
 [Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
 还有我的笔记可以参考：
+
 [mine Note](http://cr0123.gz01.bdysite.com/Notes.html)
 
 #### Java
@@ -34,8 +41,9 @@
 * Java 程序的运行（实现一个 Hello World）
 * Java 的基础语法（读懂 Hello World 的每一个部分）
 * Java 面向对象的基本概念
+* Java 基本数据类型
 
-【参考】[Java 教程 | 菜鸟教程](http://www.runoob.com/java/java-tutorial.html)（学到**Java 对象和类**）
+【参考】[Java 教程 | 菜鸟教程](http://www.runoob.com/java/java-tutorial.html)（学到*Java 基本数据类型*）
 
 #### XML（这个在劳动节前学完就行）
 
@@ -83,10 +91,10 @@ func baseNeg2(N int) string {
 
 ## 参考阅读
 1. 这篇文章可以大概作为我们的学习路径：[怎样从零开始学习安卓软件开发？ - 知乎](https://www.zhihu.com/question/19741608)
-2. 我想，如果可以的话，我们之后用 Git 来管理项目。所以，大家先对 Git 有个大概的认识（如果没兴趣的话暂时不用深入学习）：[漫话：如何给女朋友解释什么是Git和GitHub？](https://mp.weixin.qq.com/s?__biz=Mzg3MjA4MTExMw==&mid=2247485189&idx=1&sn=fbe5c12bb3ebbb61741c6f91082d3557&chksm=cef5f4b3f9827da5423175abe0e114696605d0fe832ddcb9b3fc3e5e84b85b23f4115ac331c1&scene=90&xtrack=1&sessionid=1554110118&subscene=93&clicktime=1554110601&ascene=56&devicetype=iOS12.1.4&version=1700032a&nettype=WIFI&abtest_cookie=BAABAAoACwASABMABQAjlx4AVpkeAMqZHgDZmR4A3JkeAAAA&lang=zh_CN&fontScale=100&pass_ticket=ZgSgi5nXU2danIg1smld4bT6wUi1AWJYYdU%2FVrAsGwMvWg7MW%2BjMmyXb4YDnwb9R&wx_header=1)
-3. 2. 推荐大家学习 「命令行快速入门」，我每天使用计算机的很大一部分时间是在使用命令行，熟练使用命令行可以让操作电脑更容易，所以，如果大家有兴趣，可以看一下这篇文章：[命令行快速入门](https://github.com/cdfmlr/LearnAndroidDevelopment/blob/master/Materials/《命令行快速入门》.pdf)
+2. 推荐大家学习 「命令行快速入门」，我每天使用计算机的很大一部分时间是在使用命令行，熟练使用命令行可以让操作电脑更容易，所以，如果大家有兴趣，可以看一下这篇文章：[命令行快速入门](https://github.com/cdfmlr/LearnAndroidDevelopment/blob/master/Materials/《命令行快速入门》.pdf)
 
 ## 补充说明
 1. 在 “【参考】” 中我给出的是各项技术的「菜鸟教程」页，这个网站上对知识的总结挺好的，可以当作学习纲要来参考（我们要学的包括但不限于其中内容）
 2. 「参考阅读」中的东西都仅只是推荐。
 3. 所有内容大家都可以随意选学😂
+
