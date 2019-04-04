@@ -1,4 +1,4 @@
-# 使用GitHub
+# GitHub 与 本地 git 仓库协作使用
 
 - - - -
 
@@ -59,7 +59,13 @@ $ git clone <粘贴>
  # git 会在当前目录下新建一个名为hello-world的目录（git仓库）
 ```
 
-3. 从远程仓库获取更新
+3. 与远程仓库同步（pull）
+
+```
+$ git pull 
+```
+
+4. 从远程仓库获取更新的版本（fetch）
 
 在本地新建一个temp分支，并将远程origin仓库的master分支代码下载到本地temp分支：
 

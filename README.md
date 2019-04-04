@@ -7,19 +7,43 @@
 > 这是个**私人使用**的小项目，但欢迎任何人提出意见或参与我们。
 > 如有任何疑问，敬请开 [`Issues`](https://github.com/musharing-team/LearnAndroidDevelopment/issues) 或直接[联系管理员](mailto:cdfmlr@163.com)。
 
-创建这个 GitHub 有一下几个意图：
+这个项目是用来完成我们的大创项目的*学习*使用的，旨在共享学习资料与分享学习心得，同时也提出每周的计划督促大家学习。
 
-* 存放我们在大创项目的学习过程中的计划、资料，以及其他相关内容
+该 GitHub项目 提供的功能：
+
+* 查看每周的学习计划
+* 存放我们在学习过程中的资料、笔记以及其他相关内容
 * 为大家提供一个交流的场所
-* 同时也可以练习使用 GitHub 平台，参与一个开源项目，尝试以开发者的方式解决问题。
+* 练习使用 GitHub 平台，参与一个开源项目，尝试以开发者的方式解决问题
+
+在项目中出现的问题希望大家可以在 GitHub 上协作解决，共同完成，在内容上相互补充，互相帮助、学习，以在最短的时间内完成学习的任务。
 
 ## 关于使用
 
-1. *每周计划*：我们会把每周的学习计划会使用 [`Projects`](https://github.com/musharing-team/LearnAndroidDevelopment/projects) 分条提出，并逐个开 `Issues`，方便大家讨论，在所有人完成后 `close`。同时也会把所有一个完整的计划文件放到 [`Weekly`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Weekly) 目录中，供大家参考。
-2. *学习笔记*：我们可以把自己学习的笔记放到 [`Daily`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Daily) 目录中。每个人一个独立的目录，公共性质的可以以 [`worker`](https://github.com/orgs/musharing-team/people/musharingWorker) 的身份提交（或直接提交到 [`worker` 子目录](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Daily/worker)中），用以分享。
-3. *学习资料*：我们可以把自己发现的好的学习资料放到 [`Materials`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Materials) 目录。
-4. *项目准备*：我们在项目准备过程中的一些文件(非隐私性)可以放到 [`Project`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Project) 目录中。
-4. *提出问题*：有任何问题都可以开 [`Issues`](https://github.com/musharing-team/LearnAndroidDevelopment/issues)，大家可以一起讨论。
+1. **每周计划**：我们会把每周的学习计划会使用 [`Projects`](https://github.com/musharing-team/LearnAndroidDevelopment/projects) 分条提出，并逐个开 `Issues`，方便大家讨论，在所有人完成后 `close`。同时也会把所有一个完整的计划文件放到 [`Weekly`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Weekly) 目录中，供大家参考。
+2. **学习笔记**：我们可以把自己学习的笔记提交到 [`Daily`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Daily) 目录中。每个人一个独立的目录，公共性质的可以以 [`worker`](https://github.com/orgs/musharing-team/people/musharingWorker) 的身份提交（或直接提交到 [`worker` 子目录](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Daily/worker)中），用以分享。
+
+【注】关于提交，见下面的详细说明。
+
+3. **学习资料**：我们可以把自己发现的好的学习资料放到 [`Materials`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Materials) 目录。
+4. **项目准备**：我们在项目准备过程中的一些文件(非隐私性)可以放到 [`Project`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Project) 目录中。
+4. **提出问题**：有任何问题都可以开 [`Issues`](https://github.com/musharing-team/LearnAndroidDevelopment/issues)，大家可以一起讨论。
+
+## 提交说明
+
+* 在学习的过程中，每个人都应该把这个仓库 `Fork` 一份。
+
+每次使用，都应该先尝试从 `musharing-team/LearnAndroidDevelopment` pull 一份master，以保持更新；
+然后在自己 Fork 得到的 仓库中创作、修改；
+在确认无误后在**在次日00:00前**提交一个 `pull request`，在收到请求后，[管理员](https://github.com/cdfmlr)将及时统一处理。
+
+【注】即使你用这个权限，也请不要自己将验证通过、 `merge` 进 `musharing-team/LearnAndroidDevelopment`！
+
+* 如果在有特殊需求的情况下，如果有需要大量合作的部分，也有可能会在 `musharing-team/LearnAndroidDevelopment` 中直接开 `branch`，但这不会是该项目中的主流操作。
+
+* 所有的提交操作 **必须提供简要说明！**
+
+例如，在 `example.txt` 中将错误拼写 “栗子” 修改为正确的 “例子” 后，应该在 commit 时说明：`修改拼写错误: 栗子 -> 例子` 
 
 ---
 
