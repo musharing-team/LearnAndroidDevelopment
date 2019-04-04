@@ -1,10 +1,11 @@
-# LearnAndroidDevelopment ———— 一个大创项目的学习
+# LearnAndroidDevelopment —— 一个大创项目的学习
+
 > Learn Android Development via a Project in 2019
 
 ## 说明
 
 > 这是个**私人使用**的小项目，但欢迎任何人提出意见或参与我们。
-> 如有任何疑问，敬请开 `Issues` 或直接[联系管理员](mailto:cdfmlr@163.com)。
+> 如有任何疑问，敬请开 [`Issues`](https://github.com/musharing-team/LearnAndroidDevelopment/issues) 或直接[联系管理员](mailto:cdfmlr@163.com)。
 
 创建这个 GitHub 有一下几个意图：
 
@@ -14,15 +15,15 @@
 
 ## 关于使用
 
-1. *每周计划*：我们会把每周的学习计划放到 `Weekly` 目录中，供大家参考。
-2. *学习笔记*：我们可以把自己学习的笔记放到 `Daily` 目录中，用以分享。
-3. *学习资料*：我们可以把自己发现的好的学习资料放到 `Materials` 目录。
-4. *项目准备*：我们在项目准备过程中的一些文件(非隐私性)可以放到 `Project` 目录中。
-4. *提出问题*：有任何问题都可以开 `Issues`，大家可以一起讨论。
+1. *每周计划*：我们会把每周的学习计划会使用 [`Projects`](https://github.com/musharing-team/LearnAndroidDevelopment/projects) 分条提出，并逐个开 `Issues`，方便大家讨论，在所有人完成后 `close`。同时也会把所有一个完整的计划文件放到 [`Weekly`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Weekly) 目录中，供大家参考。
+2. *学习笔记*：我们可以把自己学习的笔记放到 [`Daily`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Daily) 目录中。每个人一个独立的目录，公共性质的可以以 [`worker`](https://github.com/orgs/musharing-team/people/musharingWorker) 的身份提交（或直接提交到 [`worker` 子目录](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Daily/worker)中），用以分享。
+3. *学习资料*：我们可以把自己发现的好的学习资料放到 [`Materials`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Materials) 目录。
+4. *项目准备*：我们在项目准备过程中的一些文件(非隐私性)可以放到 [`Project`](https://github.com/musharing-team/LearnAndroidDevelopment/tree/master/Project) 目录中。
+4. *提出问题*：有任何问题都可以开 [`Issues`](https://github.com/musharing-team/LearnAndroidDevelopment/issues)，大家可以一起讨论。
 
 ---
 
-## 最终目标：完成项目 ———— 曉音（Musharing）
+## 最终目标：完成项目 —— 曉音（Musharing）
 
 我们通过一段时间的学习，将在最终完成一个名为 “*曉音*” 的 Android App 开发，下面是这个 App 的简介：
 
