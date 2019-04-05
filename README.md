@@ -37,13 +37,13 @@
 然后在自己 Fork 得到的 仓库中创作、修改；
 在确认无误后在**在次日00:00前**提交一个 `pull request`，在收到请求后，[管理员](https://github.com/cdfmlr)将及时统一处理。
 
-【注】即使你用这个权限，也请不要自己将验证通过、 `merge` 进 `musharing-team/LearnAndroidDevelopment`！
+【注】即使你用这个权限，也请不要自己将自己的请求验证通过、 `merge` 进 `musharing-team/LearnAndroidDevelopment`！
 
 * 如果在有特殊需求的情况下，如果有需要大量合作的部分，也有可能会在 `musharing-team/LearnAndroidDevelopment` 中直接开 `branch`，但这不会是该项目中的主流操作。
 
 * 所有的提交操作 **必须提供简要说明！**
 
-例如，在 `example.txt` 中将错误拼写 “栗子” 修改为正确的 “例子” 后，应该在 commit 时说明：`修改拼写错误: 栗子 -> 例子` 
+例如，在 `example.txt` 中将错误拼写 “栗子” 修改为正确的 “例子” 后，应该在 commit 时说明：`修改拼写错误: 栗子 -> 例子`。 
 
 ---
 
