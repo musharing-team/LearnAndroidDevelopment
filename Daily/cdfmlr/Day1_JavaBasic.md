@@ -97,3 +97,34 @@ Java 中的注释和 C 语言相同，有`/* ... */` 和 `// ...` 两种。
 
 // 行尾注释
 ```
+
+## Java 包
+
+包主要用来对类和接口进行分类。当开发Java程序时，可能编写成百上千的类，因此很有必要对类和接口进行分类。
+
+### `package` 语句
+
+`package` 指定的信息直接将生成的 `class` 文件生成到对应目录下。如 `package aaa.bbb.ccc` 编译器就将该 `.java` 文件下的各个类生成到 `./aaa/bbb/ccc/` 这个目录。
+
+### `import` 语句
+
+`import` 是为了简化使用 `package` 之后的实例化的代码。假设 `./aaa/bbb/ccc/` 下的 `A` 类:
+
+假如没有 `import`，实例化A类为：`new aaa.bbb.ccc.A()`;
+
+使用 `import aaa.bbb.ccc.A` 后，就可以直接使用 `new A()` 了;
+也就是编译器匹配并扩展了 `aaa.bbb.ccc.` 这串字符串。
+
+例如，下面的命令行将会命令编译器载入java_installation/java/io路径下的所有类:
+
+```java
+import java.io.*;
+```
+
+## 源文件声明规则
+
+* 一个源文件中只能有一个 `public` 类（非 `public` 的不限）
+* 源文件的名称应该和 `public` 类的类名保持一致。（源文件中 public 类的类名是 Employee，那么源文件应该命名为Employee.java）
+* 如果一个类定义在某个包中，那么 `package` 语句应该在源文件的首行。
+* 如果源文件包含import语句，那么应该放在 `package` 语句和 `类定义` 之间。如果没有package语句，那么import语句应该在源文件中最前面。
+* `import` 语句和 `package` 语句对源文件中定义的所有类都有效。在同一源文件中，不能给不同的类不同的包声明。
