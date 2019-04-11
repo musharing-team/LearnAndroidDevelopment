@@ -13,6 +13,7 @@ public class Dog {
 		System.out.println("构造()：");
 		System.out.println(name + "\t" + age);
 	}
+
 	public Dog(String dogName, int dogAge) {
 		name = dogName;
 		age = dogAge;
@@ -24,7 +25,7 @@ public class Dog {
 		Dog Dog0 = new Dog();
 		Dog Dog1 = new Dog("FooBar", 3);
 
-		// 访问变量 
+		// 访问变量
 		Dog0.name = "Ana";
 		System.out.println(Dog0.name);
 
