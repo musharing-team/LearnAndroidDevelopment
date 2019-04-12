@@ -19,50 +19,12 @@ public class Dog {
 ## 类中变量的类型
 
 * **局部变量**：在*方法*或*语句块*中定义的变量被称为局部变量。变量声明和初始化都是在方法中，方法结束后，变量就会自动销毁。
-* **成员变量**：成员变量是定义在类中，*方法体之外*的变量。这种变量在创建对象的时候实例化。成员变量可以被类中方法、构造方法和特定类的语句块访问。
+
+* **成员变量(实例变量)**：成员变量是定义在类中，*方法体之外*的变量。这种变量在创建对象的时候实例化。成员变量可以被类中方法、构造方法和特定类的语句块访问。
+
 * **类变量**：类变量也声明在类中，方法体之外，但必须声明为 `static` 类型。
 
-#### 关于 **类变量** 的说明：
-
-> The static keyword in Java is used for memory management mainly. We can apply java static keyword with variables, methods, blocks and nested class. The static keyword belongs to the class than an instance of the class. The static can be: Variable (also known as a class variable) Method (also known as a class method) Block.
-
-（翻译）
-
-> Java 中的 `static` 关键字主要用于 *memory management*（谷歌翻译给出的翻译是“内存管理”, 但我对这个词的理解是：安排出一个内存空间来，供类的实例之间共享某个量）。我们可以将 java 的 `static` 关键字施用于变量、方法、语句块和嵌套类。`static` 定义的对象是属于整个类的, 而不是某个类的实例。
-
-普通的变量属于类的某一个特定的实例，但用 `static` 关键字修饰的变量将属于一个类。也就是说，我们通过类的某一个实例去修改一个一般的变量值，将只有这个实例中的值被修改，其他实例不受影响；而若是修改一个 `static` 关键字修饰的**类变量**，这个类的所有实例的这个值都会被修改。
-
-说起来比较麻烦，可以看一段示例代码：
-
-```java
-public class Static {
-	public static void main(String[] args) {
-		Example foo = new Example();
-		Example bar = new Example();
-
-		foo.staticVar = foo.normalVar = "foobar";
-
-		System.out.println(foo.staticVar + "\t" + foo.normalVar);
-		System.out.println(bar.staticVar + "\t" + bar.normalVar);
-	}
-}
-
-class Example {
-	static String staticVar = "Example";
-	String normalVar = "Example";
-}
-```
-输出：
-```
-foobar	foobar
-foobar	Example
-```
-
-可以看到，我们只改变了 `foo` 实例的值，但由 `static` 修饰的类变量 `staticVar` 的改变在 `bar` 中也出现了，而普通的成员变量则不然。
-
-利用这种特性，我们可以实现一种可以统计自己的实例个数的类，详见 [`CountingClass.java`](LearnAndroidDevelopment/Daily/cdfmlr/src/CountingClass.java)
-
-
+> 这里只是简单介绍，详见 [Day4_Var.md](Day4_Var.md)
 
 ## 构造方法
 
@@ -150,8 +112,8 @@ Ana
 FooBar is eating cat.
 ```
 
+---
+
 相关代码：
 
-[`Static.java`](LearnAndroidDevelopment/Daily/cdfmlr/src/Static.java)
-[`CountingClass.java`](LearnAndroidDevelopment/Daily/cdfmlr/src/CountingClass.java)
-[`Dog.java`](LearnAndroidDevelopment/Daily/cdfmlr/src/Dog.java)
+[`Dog.java`](src/Dog.java)

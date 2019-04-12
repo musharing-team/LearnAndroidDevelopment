@@ -8,7 +8,7 @@ public class CountingClass {
 	}
 }
 
-class Counter {		// 自计数类
+class Counter { // 自计数类
 	static int total = 0;
 
 	public Counter() {
@@ -16,4 +16,3 @@ class Counter {		// 自计数类
 		System.out.println("第 " + total + " 个 Counter 被构造。");
 	}
 }
-
