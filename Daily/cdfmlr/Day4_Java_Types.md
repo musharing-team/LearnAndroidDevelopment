@@ -11,7 +11,7 @@ Java 的两大数据类型:
 
 对于数值类型的包装类，我们都可以从中获取对应类型的二进制位数、取值范围。
 
-具体的例子，见 [`PrimitiveTypes.java`]()
+具体的例子，见 [`PrimitiveTypes.java`](./src/PrimitiveTypes.java)
 
 ### `void`
 
