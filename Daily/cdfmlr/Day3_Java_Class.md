@@ -24,7 +24,7 @@ public class Dog {
 
 * **类变量**：类变量也声明在类中，方法体之外，但必须声明为 `static` 类型。
 
-> 这里只是简单介绍，详见 [Day4_Var.md](Day4_Var.md)
+> 这里只是简单介绍，详见 [Day5_Java_Variable.md](./Day5_Java_Variable.md)
 
 ## 构造方法
 
@@ -116,4 +116,4 @@ FooBar is eating cat.
 
 相关代码：
 
-[`Dog.java`](src/Dog.java)
+[`Dog.java`](./src/Dog.java)
