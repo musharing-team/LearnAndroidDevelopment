@@ -115,7 +115,7 @@ Java 中的注释和 C 语言相同，有`/* ... */` 和 `// ...` 两种。
 使用 `import aaa.bbb.ccc.A` 后，就可以直接使用 `new A()` 了;
 也就是编译器匹配并扩展了 `aaa.bbb.ccc.` 这串字符串。
 
-例如，下面的命令行将会命令编译器载入java_installation/java/io路径下的所有类:
+例如，下面的命令行将会命令编译器载入 `java_installation/java/io` 路径下的所有类:
 
 ```java
 import java.io.*;
