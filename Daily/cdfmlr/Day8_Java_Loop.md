@@ -32,12 +32,12 @@ for( 初始化; 布尔表达式; 更新 ) {
 }
 ```
 
-还有一种用于迭代的：
+还有一种用于数组迭代的：
 
 ```
-for(声明语句 : 表达式)
+for(type element: array)
 {
-   //代码句子
+    System.out.println(element);
 }
 ```
 
@@ -56,7 +56,7 @@ public class Test {
          System.out.print(",");
       }
       System.out.print("\n");
-      String [] names ={"James", "Larry", "Tom", "Lacy"};
+      String [] names = {"James", "Larry", "Tom", "Lacy"};
       for( String name : names ) {
          System.out.print( name );
          System.out.print(",");
