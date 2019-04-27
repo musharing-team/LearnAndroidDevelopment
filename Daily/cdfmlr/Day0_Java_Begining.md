@@ -29,19 +29,20 @@ public class HelloWorld {
 		System.out.println("Hello, world!"); 
 	} 
 } 
-``` 
+```
 
 #### 运行方法 
 ``` 
 $ vim HelloWorld.java 
 $ javac hello.java 
 $ java HelloWorld 
-``` 
+```
 
 **`javac`** 后面跟着的是java文件的文件名，例如 `HelloWorld.java`。 该命令用于将 java 源文件编译为 class 字节码文件，如： `javac HelloWorld.java`。 
 运行javac命令后，如果成功编译没有错误的话，会出现一个 `HelloWorld.class` 的文件。
- 
+
 **`java`** 后面跟着的是java文件中的类名(后面不加`.class`)，如: `java HelloWorld`。 
 
 ⚠️【注意】文件名必须和类名一致！否则会出现如下错误： 
 `错误: 类 HelloWorld 是公共的, 应在名为 HelloWorld.java 的文件中声明` 
+
