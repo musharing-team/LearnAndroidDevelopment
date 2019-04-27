@@ -11,9 +11,22 @@ Java 的两大数据类型:
 
 对于数值类型的包装类，我们都可以从中获取对应类型的二进制位数、取值范围。
 
+| 原语    | 对应的 JDK 类       |
+| ------- | ------------------- |
+| boolean | java.lang.Boolean   |
+| byte    | java.lang.Byte      |
+| char    | java.lang.Character |
+| short   | java.lang.Short     |
+| int     | java.lang.Integer   |
+| long    | java.lang.Long      |
+| float   | java.lang.Float     |
+| double  | java.lang.Double    |
+
 具体的例子，见 [`PrimitiveTypes.java`](./src/PrimitiveTypes.java)
 
-### `void`
+下面，分类介绍 Java 中的内置数据类型：
+
+### void
 
 代表空的值的类型。
 
@@ -52,7 +65,7 @@ int hexadecimal = 0x64;
 ### 布尔型
 
 | 类型 | 说明 | 取值 | 默认值 |
-| -- | -- | -- | -- | 
+| -- | -- | -- | -- |
 | `boolean` | 表示一位的信息 | `true` 和 `false` | `false` |
 
 ## 引用数据类型
@@ -224,7 +237,7 @@ Float f = Float.parseFloat( s );
 Double d = Double.parseDouble( s );
 ```
 
-#### 总结
+##### 总结
 
 1. 只有 boolean 不参与数据类型的转换
 2. 自动类型的转换：
