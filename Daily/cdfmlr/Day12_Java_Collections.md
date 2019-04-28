@@ -178,5 +178,49 @@ public class TrySet {
 信息: [5, 12]
 ```
 
-## 
+## 映射 `Map`
+
+`Map` 是一种方便的集合构造，可以使用它将一个对象（*键*）与另一个对象（*值*）相关联。
+
+`Map` 的键必须是唯一的，而且可在以后用于检索值。
+
+和 List、Set 一样，`Map` 集合仅可包含对象，且 `Map` 是一个接口，所以不能直接实例化它，我们常用 `HashMap` 来实现一个 `Map`。
+
+#### 常用操作
+
+* 添加元素：`put(K key, V value)`
+* 取出元素：`get(Object key)`
+* 删除元素：`remove (Object key, [Object value])`
+* 获取大小：`size()`
+* 获取一个 Key 的 `Set`：`keySet()`，可以利用这个方法，结合使用 Set 和 Map，实现遍历 `Map`。
+
+```java
+// 声明
+Map<String, Integer> mapOfIntegers = new HashMap<>();
+// 添加
+mapOfIntegers.put("168", Integer.valueOf(168));
+// 取值
+Integer oneHundred68 = mapOfIntegers.get("168");
+```
+
+```java
+Set<String> keys = mapOfIntegers.keySet();
+Logger l = Logger.getLogger("Test");
+for (String key : keys) {
+    Integer  value = mapOfIntegers.get(key);
+    l.info("Value keyed by '" + key + "' is '" + value + "'");
+}
+```
+
+相关代码：[TryMap.java](./src/TryMap.java)
+
+----
+
+相关代码：
+
+[TryList.java](./src/UsrList.java)
+
+[TrySet.java](./src/TrySet.java)
+
+[TryMap.java](./src/TryMap.java)
 
