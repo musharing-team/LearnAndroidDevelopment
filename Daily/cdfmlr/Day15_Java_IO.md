@@ -100,7 +100,7 @@ public static void chrRead() throws IOException {
 }
 ```
 
-~~😂有意思的是，~~这对代码的作用和下面这 **一行**Python代码是一样的：
+~~😂有意思的是~~，这对代码的作用和下面这 **一行**Python代码是一样的：
 
 ```python
 print('\n'.join([c for c in input("输入字符，到\'q\'退出：\n").split('q')[0] + 'q']))
@@ -315,7 +315,7 @@ CDFMLR
 English
 ```
 
-~~😂讽刺的是，~~它的作用和下面这段 Python 代码差不多：
+~~😂讽刺的是~~，它的作用和下面这段 Python 代码差不多：
 
 ``` python
 with open("Test.txt", "w") as f:
