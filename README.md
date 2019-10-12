@@ -1,13 +1,18 @@
-# LearnAndroidDevelopment —— 一个大创项目的学习
+# LearnAndroidDevelopment
 
 > Learn Android Development via a Project in 2019
 
+## Archived
+
+我们已经在2019年10月基本完成了对相关知识的学习，并在一定程度上实现了作为目标的 `Musharing` 项目，故此仓库就此封存，不再更新。
+
+在实现的过程中，我们只在这个仓库中放入了一部分 Java以及一小部分杂项的 学习笔记。这个系列的笔记对 Java 基础知识作了比较精炼的总结，可供学习参考与日常查阅。这一系列文章也可在我的博客 [clownote](https://clownote.github.io) 中找到。
+
+关于 **Android开发** 部分，我们学习了 郭霖（[@guolindev](http://guolin.tech)）的《《第一行代码 第2版》，这本书由浅入深，逻辑清晰，各种操作都讲解的比较详细，我们很难在其基础上再做提炼，推荐阅读原书。
+
 ## 说明
 
-> 这是个**私人使用**的小项目，但欢迎任何人提出意见或参与我们。
-> 如有任何疑问，敬请开 [`Issues`](https://github.com/musharing-team/LearnAndroidDevelopment/issues) 或直接[联系管理员](mailto:cdfmlr@163.com)。
-
-这个项目是用来完成我们的大创项目的*学习*使用的，旨在共享学习资料与分享学习心得，同时也提出每周的计划督促大家学习。
+这个项目旨在帮助我们学习相关的知识以完成项目 `Musharing-Android`。用于共享学习资料与分享学习心得，同时也提出每周的计划督促大家学习。
 
 该 GitHub项目 提供的功能：
 
